@@ -25,7 +25,7 @@ const Steps = () => {
                             <>
                                 <Post
                                     image={firstImage}
-                                    content="hello there guys"
+                                    content="Connect with your favorite people and brands 🔥"
                                 />
                             </>
                     },
