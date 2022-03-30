@@ -8,7 +8,7 @@ const Post = ({ image, content, Button }) => {
                 <Col sm='12' md='12' lg='12'>
                     <div className='post'>
                         <div className='post-img-wrapper'>
-                            <img src={image} />
+                            <img src={image} alt="" />
 
                         </div>
                         <div className='post-content'>

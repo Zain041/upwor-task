@@ -1,5 +1,4 @@
 import React from 'react'
-import { Col, Container, Row } from 'reactstrap'
 import Button from '../components/Button'
 import { Link } from 'react-router-dom'
 import rightArrow from '../assets/svgs/arrow.svg'
@@ -21,7 +20,7 @@ const Home = () => {
                         <span>
                             Tap to continue
                         </span>
-                        <img src={rightArrow} />
+                        <img src={rightArrow} alt="" />
                     </Button>
                 </Link>
 
