@@ -8,7 +8,7 @@ import Button from '../components/Button'
 import { Link } from 'react-router-dom'
 
 const Steps = () => {
-    const [currentStep, setCurrentStep] = useState(1)
+    const [currentStep, setCurrentStep] = useState(0)
     const setActive = (step) => {
         setCurrentStep(step)
     }
