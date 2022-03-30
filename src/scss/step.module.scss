@@ -1,0 +1,66 @@
+
+@import "./colors.scss";
+@import './settings.fonts.scss';
+.StepperWrapper{
+  display:flex;
+  flex-direction: column;
+}
+.ContentWrapper{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+}
+.Stepper {
+  padding: 20px 0px;
+  width: 100%;
+  height: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background: transparent;
+}
+  
+  .Step {
+    display: block;
+    height: 5px;
+    width: 100%;
+    // flex-direction: column;
+    // align-items: center;
+  }
+  
+  .StepLineThrough {
+    // position: absolute;
+    height: 5px;
+    border-radius: 10px;
+    // left: calc(-50% + 3px);
+    // right: calc(50% + 6px);
+    background-color: $lightgrey;
+  }
+  .StepLineThroughDone {
+    background-color: $skyblue;
+  }
+  
+ .WelcomeText{
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: -0.028em;
+  color: $mediumgrey;
+
+ } 
+ .StepperCount{
+   height: 88px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: -0.028em;
+  
+  color: rgba(96, 120, 234, 0.15);
+
+ }
+  
